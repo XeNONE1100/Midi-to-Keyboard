@@ -1,6 +1,6 @@
 from subprocess import Popen, PIPE, CalledProcessError
 from pynput.keyboard import Controller as KeyController
-from pynput.keyboard import Key
+
 
 
 from config import *

@@ -1,4 +1,4 @@
-
+from pynput.keyboard import Key
 
 # arturia is the keyboard i used myself, check the readme for how to change it to your own
 client_name = "Arturia MiniLab mkII"
@@ -21,4 +21,25 @@ midi_to_keyboard = {
 # "57," : Key.left,
 # "59," : Key.right,
 # }
+
+
+# midi_to_keyboard = {
+# "36," : "1",
+# "37," : "2",
+
+# "48," : Key.shift,
+# "53," : Key.space,
+# "60," : Key.backspace,
+# "50," : "z",
+# "52," : "x",
+# "55,," : "c",
+
+
+# "69," : Key.left,
+# "70," : Key.up,
+# "71," : Key.down,
+# "72," : Key.right,
+# }
+
+
 
