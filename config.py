@@ -4,7 +4,7 @@ from pynput.keyboard import Key
 client_name = "Arturia MiniLab mkII"
 
 
-#letter example:
+# letter example:
 midi_to_keyboard = {
 "53," : "f",
 "55," : "g",
