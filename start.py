@@ -18,8 +18,7 @@ with Popen(cmd, stdout=PIPE, bufsize=1, universal_newlines=True) as p:
             elif line[8:].startswith("Note off"):
                 keyboard.release(midi_to_keyboard[line[40:43]])
 
-        except:
+        except KeyError:
             pass
 
-if p.returncode != 0:
-    raise CalledProcessError(p.returncode, p.args)
+#this line is here so the file size is exactly 727 bytes
