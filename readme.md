@@ -9,13 +9,13 @@ should now work on linux, windows and mac!
 
 lowered latency by using a library instead of piping commandline output using subprocess
 
-#### setting it up for your own midi keyboard
+### setting it up for your own midi keyboard
 
 pip install the dependencies listed in **dependencies.txt**
 
 now sets up automatically!
 
-#### if you wanna change / add your own midi buttons:
+### if you wanna change / add your own midi buttons:
 
 1. run **start.py** with the key configuration being an empty dict
 
